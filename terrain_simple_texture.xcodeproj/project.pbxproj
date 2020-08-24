@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		7F4354BEA4524F7089A75B21 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A2F66A00FC0C400AB1797197 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				2C93A523812F4FC999BBE9EF /* CMake Rules */,
+			);
+			dependencies = (
+				96C9B392DF7643598B77630A /* PBXTargetDependency */,
+				FD9AA04042D540E69E0C08E5 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		846FA042A97240A8833C9C5F /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7C139A18AC644FDD8ECAA4E9 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				7823DFDD4688465F9AF870BF /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0329673C89B8414DAFBB2943 /* example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 684243E9D6D44ACC947E2FC9 /* example.cpp */; };
+		757263653E2A42609CFC49FD /* targa.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB9B110C909E47FB968AAF75 /* targa.cpp */; };
+		B1C3D9AF59F449F6BBA36515 /* terrain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF866B7DFBB74C05A8979A7E /* terrain.cpp */; };
+		E4F1EB1124DBC47300D9470B /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F1EB1024DBC47200D9470B /* libglfw3.a */; };
+		E4F1EB1324DBC48500D9470B /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F1EB1224DBC48500D9470B /* OpenGL.framework */; };
+		E4F1EB1524DBC77200D9470B /* glew.c in Sources */ = {isa = PBXBuildFile; fileRef = E4F1EB1424DBC77200D9470B /* glew.c */; };
+		E4F1EB1724DBCA8F00D9470B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F1EB1624DBCA8E00D9470B /* QuartzCore.framework */; };
+		E4F1EB1924DBCA9700D9470B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F1EB1824DBCA9700D9470B /* Cocoa.framework */; };
+		E4F1EB1B24DBCAA100D9470B /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F1EB1A24DBCAA100D9470B /* IOKit.framework */; };
+		E4F1EB2724E104BF00D9470B /* Bitmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4F1EB1D24E1049C00D9470B /* Bitmap.cpp */; };
+		E4F1EB2824E104BF00D9470B /* Camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4F1EB1F24E1049C00D9470B /* Camera.cpp */; };
+		E4F1EB2924E104BF00D9470B /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4F1EB2324E1049C00D9470B /* Shader.cpp */; };
+		E4F1EB2A24E104BF00D9470B /* Texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4F1EB2524E1049C00D9470B /* Texture.cpp */; };
+		E4F1EB2B24E107F600D9470B /* Program.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4F1EB2124E1049C00D9470B /* Program.cpp */; };
+		E4F1EB2F24E647F700D9470B /* platform_osx.mm in Sources */ = {isa = PBXBuildFile; fileRef = E4F1EB2E24E647F700D9470B /* platform_osx.mm */; };
+		F06E1531F89F48F59AC614F1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71E2F33ACA6741E889998C64 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20D78A64CD87442AB7C117FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 028C8351AB1D4EE7BC2EE3CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846FA042A97240A8833C9C5F;
+			remoteInfo = ZERO_CHECK;
+		};
+		C65F81C91D4B454EB58882E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 028C8351AB1D4EE7BC2EE3CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846FA042A97240A8833C9C5F;
+			remoteInfo = ZERO_CHECK;
+		};
+		E395783476FA4B3F8EF81DDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 028C8351AB1D4EE7BC2EE3CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9A1B24938E84ED1969BE695;
+			remoteInfo = terrain_simple_texture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D62E2D678F540D89FFB4A7B /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		39122601A7E14283ABE426C6 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4D027087EA9945D2AD413B9C /* terrain_simple_texture */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = terrain_simple_texture; sourceTree = BUILT_PRODUCTS_DIR; };
+		684243E9D6D44ACC947E2FC9 /* example.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = example.cpp; path = src/example.cpp; sourceTree = SOURCE_ROOT; };
+		71E2F33ACA6741E889998C64 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		BB9B110C909E47FB968AAF75 /* targa.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = targa.cpp; path = src/targa.cpp; sourceTree = SOURCE_ROOT; };
+		E4F1EB1024DBC47200D9470B /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglfw3.a; path = platforms/osx/libglfw3.a; sourceTree = "<group>"; };
+		E4F1EB1224DBC48500D9470B /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		E4F1EB1424DBC77200D9470B /* glew.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = glew.c; path = source/common/thirdparty/glew/src/glew.c; sourceTree = "<group>"; };
+		E4F1EB1624DBCA8E00D9470B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E4F1EB1824DBCA9700D9470B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E4F1EB1A24DBCAA100D9470B /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		E4F1EB1D24E1049C00D9470B /* Bitmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bitmap.cpp; sourceTree = "<group>"; };
+		E4F1EB1E24E1049C00D9470B /* Bitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bitmap.h; sourceTree = "<group>"; };
+		E4F1EB1F24E1049C00D9470B /* Camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Camera.cpp; sourceTree = "<group>"; };
+		E4F1EB2024E1049C00D9470B /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		E4F1EB2124E1049C00D9470B /* Program.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Program.cpp; sourceTree = "<group>"; };
+		E4F1EB2224E1049C00D9470B /* Program.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Program.h; sourceTree = "<group>"; };
+		E4F1EB2324E1049C00D9470B /* Shader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shader.cpp; sourceTree = "<group>"; };
+		E4F1EB2424E1049C00D9470B /* Shader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shader.h; sourceTree = "<group>"; };
+		E4F1EB2524E1049C00D9470B /* Texture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Texture.cpp; sourceTree = "<group>"; };
+		E4F1EB2624E1049C00D9470B /* Texture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture.h; sourceTree = "<group>"; };
+		E4F1EB2C24E6479D00D9470B /* platform.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = platform.hpp; path = source/common/platform.hpp; sourceTree = "<group>"; };
+		E4F1EB2E24E647F700D9470B /* platform_osx.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = platform_osx.mm; path = platforms/osx/platform_osx.mm; sourceTree = "<group>"; };
+		EF866B7DFBB74C05A8979A7E /* terrain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = terrain.cpp; path = src/terrain.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4F1EB0E24DBC3E400D9470B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4F1EB1B24DBCAA100D9470B /* IOKit.framework in Frameworks */,
+				E4F1EB1924DBCA9700D9470B /* Cocoa.framework in Frameworks */,
+				E4F1EB1724DBCA8F00D9470B /* QuartzCore.framework in Frameworks */,
+				E4F1EB1324DBC48500D9470B /* OpenGL.framework in Frameworks */,
+				E4F1EB1124DBC47300D9470B /* libglfw3.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		404841EC7AFB4424AF07DB77 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4F1EB1C24E1049C00D9470B /* tdogl */,
+				684243E9D6D44ACC947E2FC9 /* example.cpp */,
+				71E2F33ACA6741E889998C64 /* main.cpp */,
+				BB9B110C909E47FB968AAF75 /* targa.cpp */,
+				EF866B7DFBB74C05A8979A7E /* terrain.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		5081013D6ECC43B6A3FCD626 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D027087EA9945D2AD413B9C /* terrain_simple_texture */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61C9660600CB436185DF3E66 /* terrain_simple_texture */ = {
+			isa = PBXGroup;
+			children = (
+				404841EC7AFB4424AF07DB77 /* Source Files */,
+				1D62E2D678F540D89FFB4A7B /* CMakeLists.txt */,
+			);
+			name = terrain_simple_texture;
+			sourceTree = "<group>";
+		};
+		80992CAE907646D0A0B4588C = {
+			isa = PBXGroup;
+			children = (
+				E4F1EB2E24E647F700D9470B /* platform_osx.mm */,
+				E4F1EB2C24E6479D00D9470B /* platform.hpp */,
+				E4F1EB1424DBC77200D9470B /* glew.c */,
+				61C9660600CB436185DF3E66 /* terrain_simple_texture */,
+				D495E042E42E42BB8913D13D /* ALL_BUILD */,
+				5081013D6ECC43B6A3FCD626 /* Products */,
+				E4F1EB0F24DBC47200D9470B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8C3B5A9B02214D729652036D /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		D495E042E42E42BB8913D13D /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				8C3B5A9B02214D729652036D /* CMake Rules */,
+				39122601A7E14283ABE426C6 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		E4F1EB0F24DBC47200D9470B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4F1EB1A24DBCAA100D9470B /* IOKit.framework */,
+				E4F1EB1824DBCA9700D9470B /* Cocoa.framework */,
+				E4F1EB1624DBCA8E00D9470B /* QuartzCore.framework */,
+				E4F1EB1224DBC48500D9470B /* OpenGL.framework */,
+				E4F1EB1024DBC47200D9470B /* libglfw3.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4F1EB1C24E1049C00D9470B /* tdogl */ = {
+			isa = PBXGroup;
+			children = (
+				E4F1EB1D24E1049C00D9470B /* Bitmap.cpp */,
+				E4F1EB1E24E1049C00D9470B /* Bitmap.h */,
+				E4F1EB1F24E1049C00D9470B /* Camera.cpp */,
+				E4F1EB2024E1049C00D9470B /* Camera.h */,
+				E4F1EB2124E1049C00D9470B /* Program.cpp */,
+				E4F1EB2224E1049C00D9470B /* Program.h */,
+				E4F1EB2324E1049C00D9470B /* Shader.cpp */,
+				E4F1EB2424E1049C00D9470B /* Shader.h */,
+				E4F1EB2524E1049C00D9470B /* Texture.cpp */,
+				E4F1EB2624E1049C00D9470B /* Texture.h */,
+			);
+			name = tdogl;
+			path = src/tdogl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9A1B24938E84ED1969BE695 /* terrain_simple_texture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 555704DB65A1437DBC71DFD0 /* Build configuration list for PBXNativeTarget "terrain_simple_texture" */;
+			buildPhases = (
+				2F066E1E63E542FCA9A75563 /* Sources */,
+				E4F1EB0E24DBC3E400D9470B /* Frameworks */,
+				E4F1EB3024E6498100D9470B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B6B2DB0C9E54A6EB680FC71 /* PBXTargetDependency */,
+			);
+			name = terrain_simple_texture;
+			productName = terrain_simple_texture;
+			productReference = 4D027087EA9945D2AD413B9C /* terrain_simple_texture */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		028C8351AB1D4EE7BC2EE3CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1000;
+			};
+			buildConfigurationList = 51567B36FF28425C8ACDE190 /* Build configuration list for PBXProject "terrain_simple_texture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 80992CAE907646D0A0B4588C;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F4354BEA4524F7089A75B21 /* ALL_BUILD */,
+				846FA042A97240A8833C9C5F /* ZERO_CHECK */,
+				A9A1B24938E84ED1969BE695 /* terrain_simple_texture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4F1EB3024E6498100D9470B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C93A523812F4FC999BBE9EF /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/joshuadahl/Desktop/Tools/OpenGL\\ Book\\ Examples/chapter_7/terrain_simple_texture -f /Users/joshuadahl/Desktop/Tools/OpenGL\\ Book\\ Examples/chapter_7/terrain_simple_texture/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		7823DFDD4688465F9AF870BF /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/joshuadahl/Desktop/Tools/OpenGL\\ Book\\ Examples/chapter_7/terrain_simple_texture -f /Users/joshuadahl/Desktop/Tools/OpenGL\\ Book\\ Examples/chapter_7/terrain_simple_texture/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F066E1E63E542FCA9A75563 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4F1EB2F24E647F700D9470B /* platform_osx.mm in Sources */,
+				E4F1EB2B24E107F600D9470B /* Program.cpp in Sources */,
+				E4F1EB2724E104BF00D9470B /* Bitmap.cpp in Sources */,
+				E4F1EB2824E104BF00D9470B /* Camera.cpp in Sources */,
+				E4F1EB2924E104BF00D9470B /* Shader.cpp in Sources */,
+				E4F1EB2A24E104BF00D9470B /* Texture.cpp in Sources */,
+				E4F1EB1524DBC77200D9470B /* glew.c in Sources */,
+				0329673C89B8414DAFBB2943 /* example.cpp in Sources */,
+				F06E1531F89F48F59AC614F1 /* main.cpp in Sources */,
+				757263653E2A42609CFC49FD /* targa.cpp in Sources */,
+				B1C3D9AF59F449F6BBA36515 /* terrain.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B6B2DB0C9E54A6EB680FC71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846FA042A97240A8833C9C5F /* ZERO_CHECK */;
+			targetProxy = 20D78A64CD87442AB7C117FB /* PBXContainerItemProxy */;
+		};
+		96C9B392DF7643598B77630A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846FA042A97240A8833C9C5F /* ZERO_CHECK */;
+			targetProxy = C65F81C91D4B454EB58882E8 /* PBXContainerItemProxy */;
+		};
+		FD9AA04042D540E69E0C08E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9A1B24938E84ED1969BE695 /* terrain_simple_texture */;
+			targetProxy = E395783476FA4B3F8EF81DDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A5591EA23194666AE285CAE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_7/terrain_simple_texture";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		1B50C04EBF424186BF5C7C01 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"\"$(PROJECT_DIR)/source/common/thirdparty\"",
+					"\"$(PROJECT_DIR)/source/common/\"",
+				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/platforms/osx";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Users/joshuadahl/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_7/terrain_simple_texture/build";
+			};
+			name = RelWithDebInfo;
+		};
+		2609A9F34C4D403CA4B0D51E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_7/terrain_simple_texture";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		446F39777616456FB11A643C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"$(PROJECT_DIR)/source/common/thirdparty\"/**",
+					"\"$(PROJECT_DIR)/source/common/\"/**",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "\"/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_7/terrain_simple_texture/lib\"";
+				LIBRARY_SEARCH_PATHS = (
+					"\"/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_7/terrain_simple_texture/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"",
+					"\"/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_7/terrain_simple_texture/lib\"",
+					"$(PROJECT_DIR)/platforms/osx",
+				);
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = terrain_simple_texture;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_7/terrain_simple_texture";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		58FF2BEB22124516AF716A22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_7/terrain_simple_texture";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		5D636576B3BD4D6589282211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_7/terrain_simple_texture";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		62B373580BA5452FA511575F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_7/terrain_simple_texture";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		7781A77C1A7948B7BA4D8E3D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"\"$(PROJECT_DIR)/source/common/thirdparty\"",
+					"\"$(PROJECT_DIR)/source/common/\"",
+				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/platforms/osx";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Users/joshuadahl/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_7/terrain_simple_texture/build";
+			};
+			name = MinSizeRel;
+		};
+		87B8B4BC7E604DC1806F5F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"\"$(PROJECT_DIR)/source/common/thirdparty\"",
+					"\"$(PROJECT_DIR)/source/common/\"",
+				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/platforms/osx";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Users/joshuadahl/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_7/terrain_simple_texture/build";
+			};
+			name = Release;
+		};
+		8E2CBAAB4654441A93DE8898 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_7/terrain_simple_texture";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		B99B137C7BB944C992C4493F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_7/terrain_simple_texture";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		C06F759877A84835B03C2163 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"$(PROJECT_DIR)/source/common/thirdparty\"/**",
+					"\"$(PROJECT_DIR)/source/common/\"/**",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "\"/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_7/terrain_simple_texture/lib\"";
+				LIBRARY_SEARCH_PATHS = (
+					"\"/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_7/terrain_simple_texture/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"",
+					"\"/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_7/terrain_simple_texture/lib\"",
+					"$(PROJECT_DIR)/platforms/osx",
+				);
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = terrain_simple_texture;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_7/terrain_simple_texture";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		C87284E42FAA4298980A3F03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"$(PROJECT_DIR)/source/common/thirdparty\"/**",
+					"\"$(PROJECT_DIR)/source/common/\"/**",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "\"/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_7/terrain_simple_texture/lib\"";
+				LIBRARY_SEARCH_PATHS = (
+					"\"/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_7/terrain_simple_texture/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"",
+					"\"/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_7/terrain_simple_texture/lib\"",
+					"$(PROJECT_DIR)/platforms/osx",
+				);
+				OTHER_CFLAGS = "    ";
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = terrain_simple_texture;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_7/terrain_simple_texture";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		D2870261B3B748BF8549753F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"$(PROJECT_DIR)/source/common/thirdparty\"/**",
+					"\"$(PROJECT_DIR)/source/common/\"/**",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "\"/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_7/terrain_simple_texture/lib\"";
+				LIBRARY_SEARCH_PATHS = (
+					"\"/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_7/terrain_simple_texture/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"",
+					"\"/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_7/terrain_simple_texture/lib\"",
+					"$(PROJECT_DIR)/platforms/osx",
+				);
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = terrain_simple_texture;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_7/terrain_simple_texture";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		F936A8A4D62747CB9E863F7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_7/terrain_simple_texture";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		FA00C719BE6C45EF914611F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"\"$(PROJECT_DIR)/source/common/thirdparty\"",
+					"\"$(PROJECT_DIR)/source/common/\"",
+				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/platforms/osx";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Users/joshuadahl/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_7/terrain_simple_texture/build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51567B36FF28425C8ACDE190 /* Build configuration list for PBXProject "terrain_simple_texture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA00C719BE6C45EF914611F5 /* Debug */,
+				87B8B4BC7E604DC1806F5F5D /* Release */,
+				7781A77C1A7948B7BA4D8E3D /* MinSizeRel */,
+				1B50C04EBF424186BF5C7C01 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		555704DB65A1437DBC71DFD0 /* Build configuration list for PBXNativeTarget "terrain_simple_texture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87284E42FAA4298980A3F03 /* Debug */,
+				D2870261B3B748BF8549753F /* Release */,
+				C06F759877A84835B03C2163 /* MinSizeRel */,
+				446F39777616456FB11A643C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7C139A18AC644FDD8ECAA4E9 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D636576B3BD4D6589282211 /* Debug */,
+				F936A8A4D62747CB9E863F7C /* Release */,
+				62B373580BA5452FA511575F /* MinSizeRel */,
+				1A5591EA23194666AE285CAE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A2F66A00FC0C400AB1797197 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58FF2BEB22124516AF716A22 /* Debug */,
+				2609A9F34C4D403CA4B0D51E /* Release */,
+				B99B137C7BB944C992C4493F /* MinSizeRel */,
+				8E2CBAAB4654441A93DE8898 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 028C8351AB1D4EE7BC2EE3CD /* Project object */;
+}

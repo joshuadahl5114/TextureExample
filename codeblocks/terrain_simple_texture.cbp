@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="terrain_simple_texture" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_7/terrain_simple_texture/codeblocks" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/media/OS/Users/luke/Desktop/BOGLGP\ Source/boglgp/Source/OpenGL\ 3.0/chapter_7/terrain_simple_texture/codeblocks/Makefile&quot; all" />
+            <CompileFile command="/usr/bin/make -f &quot;/media/OS/Users/luke/Desktop/BOGLGP\ Source/boglgp/Source/OpenGL\ 3.0/chapter_7/terrain_simple_texture/codeblocks/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/media/OS/Users/luke/Desktop/BOGLGP\ Source/boglgp/Source/OpenGL\ 3.0/chapter_7/terrain_simple_texture/codeblocks/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/media/OS/Users/luke/Desktop/BOGLGP\ Source/boglgp/Source/OpenGL\ 3.0/chapter_7/terrain_simple_texture/codeblocks/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_7/terrain_simple_texture/codeblocks" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/media/OS/Users/luke/Desktop/BOGLGP\ Source/boglgp/Source/OpenGL\ 3.0/chapter_7/terrain_simple_texture/codeblocks/Makefile&quot; rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/media/OS/Users/luke/Desktop/BOGLGP\ Source/boglgp/Source/OpenGL\ 3.0/chapter_7/terrain_simple_texture/codeblocks/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/media/OS/Users/luke/Desktop/BOGLGP\ Source/boglgp/Source/OpenGL\ 3.0/chapter_7/terrain_simple_texture/codeblocks/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/media/OS/Users/luke/Desktop/BOGLGP\ Source/boglgp/Source/OpenGL\ 3.0/chapter_7/terrain_simple_texture/codeblocks/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="terrain_simple_texture">
+         <Option output="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_7/terrain_simple_texture/codeblocks/terrain_simple_texture" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_7/terrain_simple_texture/codeblocks" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_7/terrain_simple_texture/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/media/OS/Users/luke/Desktop/BOGLGP\ Source/boglgp/Source/OpenGL\ 3.0/chapter_7/terrain_simple_texture/codeblocks/Makefile&quot; terrain_simple_texture" />
+            <CompileFile command="/usr/bin/make -f &quot;/media/OS/Users/luke/Desktop/BOGLGP\ Source/boglgp/Source/OpenGL\ 3.0/chapter_7/terrain_simple_texture/codeblocks/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/media/OS/Users/luke/Desktop/BOGLGP\ Source/boglgp/Source/OpenGL\ 3.0/chapter_7/terrain_simple_texture/codeblocks/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/media/OS/Users/luke/Desktop/BOGLGP\ Source/boglgp/Source/OpenGL\ 3.0/chapter_7/terrain_simple_texture/codeblocks/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="terrain_simple_texture/fast">
+         <Option output="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_7/terrain_simple_texture/codeblocks/terrain_simple_texture" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_7/terrain_simple_texture/codeblocks" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_7/terrain_simple_texture/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/media/OS/Users/luke/Desktop/BOGLGP\ Source/boglgp/Source/OpenGL\ 3.0/chapter_7/terrain_simple_texture/codeblocks/Makefile&quot; terrain_simple_texture/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/media/OS/Users/luke/Desktop/BOGLGP\ Source/boglgp/Source/OpenGL\ 3.0/chapter_7/terrain_simple_texture/codeblocks/Makefile&quot; &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/media/OS/Users/luke/Desktop/BOGLGP\ Source/boglgp/Source/OpenGL\ 3.0/chapter_7/terrain_simple_texture/codeblocks/Makefile&quot; clean" />
+            <DistClean command="/usr/bin/make -f &quot;/media/OS/Users/luke/Desktop/BOGLGP\ Source/boglgp/Source/OpenGL\ 3.0/chapter_7/terrain_simple_texture/codeblocks/Makefile&quot; clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_7/terrain_simple_texture/src/example.cpp">
+      </Unit>
+      <Unit filename="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_7/terrain_simple_texture/src/glee/GLee.c">
+      </Unit>
+      <Unit filename="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_7/terrain_simple_texture/src/glxwindow.cpp">
+      </Unit>
+      <Unit filename="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_7/terrain_simple_texture/src/main.cpp">
+      </Unit>
+      <Unit filename="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_7/terrain_simple_texture/src/targa.cpp">
+      </Unit>
+      <Unit filename="/media/OS/Users/luke/Desktop/BOGLGP Source/boglgp/Source/OpenGL 3.0/chapter_7/terrain_simple_texture/src/terrain.cpp">
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
